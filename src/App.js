@@ -47,6 +47,7 @@ class App extends React.Component {
         <header className="App-header">
 
           <button className="download-brochure" onClick={this.handleDownloadBrochure}>Download</button>
+          <a href="./pdfs/Subaru-hybrid-brochure.pdf" download target="_blank">Download PDF</a>
         </header>
       </div>
     );
